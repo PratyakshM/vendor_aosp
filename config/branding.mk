@@ -13,16 +13,12 @@ CUSTOM_PLATFORM_VERSION := 10.0
 
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(CUSTOM_BUILD))
 
-CUSTOM_VERSION := PixelExperience_Plus_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)-$(CUSTOM_BUILD_TYPE)
+CUSTOM_VERSION := Atom_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)-$(CUSTOM_BUILD_TYPE)
 CUSTOM_VERSION_PROP := 10
 
 CUSTOM_PROPERTIES := \
-    org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
-    org.pixelexperience.version.display=$(CUSTOM_VERSION) \
-    org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
-    org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE)
-
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/secure/releasekey
-endif
+    org.atom.version=$(CUSTOM_VERSION_PROP) \
+    org.atom.version.display=$(CUSTOM_VERSION) \
+    org.atom.build_date=$(CUSTOM_BUILD_DATE) \
+    org.atom.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    org.atom.build_type=$(CUSTOM_BUILD_TYPE)

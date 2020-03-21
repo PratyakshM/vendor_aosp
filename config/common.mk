@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
     PixelSetupWizardAodOverlay
 
+ # Long screenshot
+PRODUCT_PACKAGES += \
+    Longshot
+
 # Gestures overlay
 PRODUCT_PACKAGES += \
     NavBarGesturalNoPillOverlay \

@@ -122,8 +122,7 @@ PRODUCT_PACKAGES += \
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
-    PixelSetupWizardAodOverlay\
-    Longshot
+    PixelSetupWizardAodOverlay
 
 # Gestures overlay
 PRODUCT_PACKAGES += \

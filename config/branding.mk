@@ -1,5 +1,5 @@
 # Versioning System
-ATOM_BASE_VERSION = 2.1
+ATOM_BASE_VERSION = 2.6
 ATOM_CODENAME := Quantizer
 
 # Set all versions

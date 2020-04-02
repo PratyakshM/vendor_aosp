@@ -1,6 +1,6 @@
 # Versioning System
-ATOM_BASE_VERSION = 2.6
-ATOM_CODENAME := Quantizer
+ATOM_BASE_VERSION = 2.6.1+69
+ATOM_CODENAME := Go Corona
 
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL

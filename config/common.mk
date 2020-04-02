@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
+# Long Screenshot
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Branding
 include vendor/aosp/config/branding.mk
 

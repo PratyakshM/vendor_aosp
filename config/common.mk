@@ -143,8 +143,7 @@ PRODUCT_PACKAGES += \
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    NexusLauncherRelease
+    SystemUI
 
 # Themed bootanimation
 TARGET_MISC_BLOCK_OFFSET ?= 0
@@ -173,10 +172,18 @@ include vendor/aosp/config/branding.mk
 include vendor/aosp/config/ota.mk
 
 # GApps
-include vendor/gapps/config.mk
+#include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
+
+# AOSP apps
+PRODUCT_PACKAGES += \
+    MusicFX \
+    ExactCalculator \
+    DeskClock \
+    LatinIME
+
 
 # Customization
 include vendor/google/customization/config.mk

@@ -163,7 +163,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Long Screenshot
 PRODUCT_PACKAGES += \
-    StitchImage
+    StitchImage \
+    Recorder
 
 # Branding
 include vendor/aosp/config/branding.mk

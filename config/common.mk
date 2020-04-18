@@ -30,9 +30,6 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
-# Ambient Play
-#PRODUCT_PACKAGES += \
-#    AmbientPlayHistoryProvider
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -130,9 +127,6 @@ PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
     PixelSetupWizardAodOverlay
 
- # Long screenshot
-PRODUCT_PACKAGES += \
-    Longshot
 
 # Gestures overlay
 PRODUCT_PACKAGES += \

@@ -150,7 +150,8 @@ PRODUCT_PACKAGES += \
 
 # Long Screenshot
 PRODUCT_PACKAGES += \
-    StitchImage
+    StitchImage \
+    Recorder
 
 # Branding
 include vendor/aosp/config/branding.mk

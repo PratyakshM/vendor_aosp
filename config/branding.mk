@@ -31,4 +31,5 @@ CUSTOM_PROPERTIES := \
     org.atom.version.display=$(ATOM_VERSION) \
     org.atom.build_date=$(CUSTOM_BUILD_DATE) \
     org.atom.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.atom.build_type=$(CUSTOM_BUILD_TYPE)
+    org.atom.build_type=$(CUSTOM_BUILD_TYPE) \
+    org.atom.build_codename=$(ATOM_CODENAME)

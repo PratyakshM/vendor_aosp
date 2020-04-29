@@ -1,6 +1,6 @@
 # Versioning System
 ATOM_BASE_VERSION = 2.6.3
-ATOM_CODENAME := Argon
+ATOM_CODENAME := StormBreaker
 
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL

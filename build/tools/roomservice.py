@@ -47,6 +47,7 @@ custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'ten')
 custom_dependencies = "aosp.dependencies"
 org_manifest = "atom-devices"  # leave empty if org is provided in manifest
 org_display = "Atom-Devices"  # needed for displaying
+org_display = "AtomOrgDevice"  # needed for displaying
 
 github_auth = None
 

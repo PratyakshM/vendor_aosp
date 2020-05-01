@@ -155,8 +155,8 @@ PRODUCT_PACKAGES += \
 
 # Long Screenshot
 PRODUCT_PACKAGES += \
-    StitchImage \
-    Recorder
+    StitchImage
+
 
 # Face Unlock
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
